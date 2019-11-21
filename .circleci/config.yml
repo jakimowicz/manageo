@@ -19,6 +19,13 @@ jobs:
     steps:
       - checkout
 
+      # Install bundler 2
+      - run:
+          name: install bundler 2
+          command: |
+            gem update --system
+            gem install bundler
+
       # Download and cache dependencies
       - restore_cache:
           keys:
