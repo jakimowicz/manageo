@@ -36,5 +36,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec-its'
   spec.add_development_dependency 'single_cov'
   spec.add_development_dependency 'ffaker'
+  spec.add_development_dependency 'rspec_junit_formatter'
 
 end
